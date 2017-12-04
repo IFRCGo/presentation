@@ -3,8 +3,6 @@
  * Author: Rene Clausen Nielsen
  */
 @import url(../../lib/font/source-sans-pro/source-sans-pro.css);
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,300);
-@import url(https://fonts.googleapis.com/css?family='Roboto Slab':400,700,300);
 /**
  * Solarized colors by Ethan Schoonover
  */
@@ -25,7 +23,7 @@ body {
 .reveal {
   font-family: Roboto, "Source Sans Pro", Helvetica, sans-serif;
   font-size: 38px;
-  font-weight: normal;
+  font-weight: 400;
   color: #585B63; }
 
 ::selection {
@@ -289,3 +287,17 @@ body {
  *********************************************/
 .reveal section img {
   border: 1px solid #585B63; }
+
+  /*********************************************
+   * CUSTOM
+   *********************************************/
+mark {
+  background-color: #C02C2D;
+  color: #FAFAFA;
+  }
+
+.scrollable {
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  height: 1080px;
+}
